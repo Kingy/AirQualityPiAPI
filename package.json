@@ -1,0 +1,21 @@
+{
+  "name": "airqualitypiapi",
+  "version": "1.0.0",
+  "description": "API for the Air Quality PI project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jamie Gracie",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.4.0",
+    "sequelize": "^6.32.1"
+  }
+}
