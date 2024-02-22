@@ -50,7 +50,7 @@ exports.getDataLast24Hours = async (req, res) => {
                     [Op.gt]: date
                 }
             },
-            order: [['createdAt', 'ASC']]
+            order: [['createdAt', 'DESC']]
         });
 
         res.status(200).json({
